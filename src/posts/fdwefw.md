@@ -11,7 +11,7 @@ tags:
 
 Love it, hate it, or, *really* hate it - documentation is a critical part of software development. Gherkin comes in handy - especially when documenting user flows - as a way to standardize that documentation in an easy-to-read format that anyone can understand. At the beginning of a project it can help stakeholders, product and developers understand the expected behavior of a feature before a line of code is written. And, at the end of the development process it performs double duty as behavior-driven test cases.
 
-## Gherkin's Syntax
+## Gherkin's syntax
 
 One of the biggest benefits is that it uses standard English (or, your team's language of choice). The basic syntax requires almost no explanation:
 
@@ -38,7 +38,7 @@ In reality, a little more context is generally needed, but the syntax is readily
    **And** Article appears on recently published page
    **And** Modal appears to user and says 'Article has been published at \[timestamp]
 
-## Additional Gherkin Resources
+## Additional Gherkin resources
 
 Any given feature might have several Gherkin snippets which provides a lot of utility in a test-driven development environment. If the documentation is done well, there shouldn't be any surprises at the end of the sprint because the team has been referring to and testing against the Gherkin scenarios during development.
 
