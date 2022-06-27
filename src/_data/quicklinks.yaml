@@ -1,13 +1,13 @@
 links:
-  - title: Test
-    url: https://www.netlifycms.org/
-    desc: Open source content management for your Git workflow
-  - title: Eleventy
-    url: https://www.11ty.dev/
-    desc: Eleventy is a simpler static site generator.
-  - title: Alpine.js
-    url: https://github.com/alpinejs/alpine
-    desc: A minimal framework for composing JavaScript behavior in your markup.
-  - title: Tailwind CSS
-    url: https://tailwindcss.com/
-    desc: A utility-first CSS framework for rapidly building custom designs.
+  - title: Percentage Calculators
+    url: /calculators
+    desc: Simple percentage calculators so you never have to do math.
+  - title: Placeholder
+    url: /
+    desc: Something cool should go here.
+  - title: Placeholder 2
+    url: /
+    desc: Something cooler should go here.
+  - title: Placeholder 3
+    url: /
+    desc: Save the coolest thing for right here.
