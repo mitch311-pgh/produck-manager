@@ -5,7 +5,7 @@ description: Write better acceptance criteria and test cases with Gherkin, an
 author: Mitch Wilston
 date: 2022-06-27T00:05:52.262Z
 tags:
-  - Tags
+  - tips
 ---
 # What is Gherkin and why should I care?
 
