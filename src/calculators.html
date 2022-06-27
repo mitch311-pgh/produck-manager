@@ -9,12 +9,13 @@ path: calculators
   class="container mx-auto lg:h-screen flex flex-col justify-center items-center"
 >
 <h1>Percentage Calculator</h1>
-  
-<div>
+ 
+<!-- What is X % of X?-->
+<div class="calc-border">
 
     <!-- Defines a field for entering a number-->
-    <h2> What is <input class="calc-input" type="number" id="percent" />% of
-        <input class="calc-input" type="number" id="num" />?
+    <h2>What is<input class="calc-input" type="number" id="percent" />% of
+        <input class="calc-input" type="number" id="num" />
     </h2>
 
     <!-- onclick event is to call the function when
@@ -26,11 +27,11 @@ path: calculators
     <input type="text" id="value1" readonly />
 </div>
 
-<div>
+<div class="calc-border">
     <!-- Defines a field for entering a number -->
     <h2><input class="calc-input" type="number" id="num1" />
-        is what Percent of
-        <input class="calc-input" type="number" id="num2" />?
+        is what % of
+        <input class="calc-input" type="number" id="num2" />
     </h2>
       
     <!-- onclick event is to call the function 
@@ -42,5 +43,4 @@ path: calculators
     <input type="text" id="value2" readonly />
 </div>
 
-  {% include "./_includes/partials/content.html" %}
 </div>

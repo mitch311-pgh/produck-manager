@@ -12,8 +12,12 @@ h3 {
   @apply text-2xl font-bold mb-3;
 }
 
+.calc-border {
+  @apply bg-[#ADD8E6] w-full max-w-lg shadow-md rounded px-8 pt-6 pb-8 mb-4;
+}
+
 .calc-input {
-  @apply border-solid border-2 border-indigo-600;
+  @apply shadow appearance-none border rounded max-w-[120px] py-2 px-3 text-gray-700 leading-tight;
 }
 
 .calc-button {
