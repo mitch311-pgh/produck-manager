@@ -4,18 +4,43 @@ title: Calculators
 path: calculators
 ---
 
+<script type="text/javascript" src="/static/js/calculator.js"></script>
 <div
   class="container mx-auto lg:h-screen flex flex-col justify-center items-center"
 >
-  <h1>
-    <strong
-      class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500"
-    >
-      Calculators
-    </strong>
-  </h1>
+<h1>Percentage Calculator</h1>
+  
+<div>
 
-  <p class="max-w-[90%]">Seeing if I can make a calculator</p>
+    <!-- Defines a field for entering a number-->
+    <h2> What is <input class="calc-input" type="number" id="percent" />% of
+        <input class="calc-input" type="number" id="num" />?
+    </h2>
+
+    <!-- onclick event is to call the function when
+        user click on the button-->
+    <button class="calc-button" onclick="percentage_1()">Calculate</button><br>
+
+        <!-- Read-only input field to display 
+        output and cannot be modified -->
+    <input type="text" id="value1" readonly />
+</div>
+
+<div>
+    <!-- Defines a field for entering a number -->
+    <h2><input class="calc-input" type="number" id="num1" />
+        is what Percent of
+        <input class="calc-input" type="number" id="num2" />?
+    </h2>
+      
+    <!-- onclick event is to call the function 
+        when user click on the button -->
+    <button class="calc-button" onclick="percentage_2()">Calculate</button></br>
+      
+    <!-- Read-only input field to display 
+        output and cannot be modified -->
+    <input type="text" id="value2" readonly />
+</div>
 
   {% include "./_includes/partials/content.html" %}
 </div>
