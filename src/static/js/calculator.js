@@ -13,5 +13,16 @@ function percentage_2() {
 
   // Method returns the elements of num2 id
   var num2 = document.getElementById("num2").value;
+
   document.getElementById("value2").value = (num1 * 100) / num2 + "%";
+}
+
+function percentage_3() {
+  // Method returns the element of num1 id
+  var num4 = document.getElementById("increase_1").value;
+
+  // Method returns the elements of num2 id
+  var num5 = document.getElementById("increase_2").value;
+
+  document.getElementById("value3").value = increase_2 - increase_1;
 }

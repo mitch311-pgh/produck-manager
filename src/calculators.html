@@ -27,6 +27,7 @@ path: calculators
     <input class="calc-answer" type="text"  placeholder="Waiting to calculate..." id="value1" readonly />
 </div>
 
+<!-- X is what % of X-->
 <div class="calc-border">
     <!-- Defines a field for entering a number -->
     <h2 class="text-lg font-semibold"><input class="calc-input" type="number" id="num1" />
@@ -42,5 +43,26 @@ path: calculators
         output and cannot be modified -->
     <input class="calc-answer" type="text"  placeholder="Waiting to calculate..." id="value2" readonly />
 </div>
+
+<!-- X is what % of X-->
+<div class="calc-border">
+
+    <!-- Defines a field for entering a number -->
+    <h2 class="text-lg font-semibold">
+        Calculate the difference between 
+        <input class="calc-input" type="number" id="increase_1" />
+        and
+        <input class="calc-input" type="number" id="increase_2" />
+    </h2>
+      
+    <!-- onclick event is to call the function 
+        when user click on the button -->
+    <button class="calc-button" onclick="percentage_3()">Calculate</button></br>
+      
+    <!-- Read-only input field to display 
+        output and cannot be modified -->
+    <input class="calc-answer" type="text"  placeholder="Waiting to calculate..." id="value3" readonly />
+</div>
+
 
 </div>
