@@ -10,13 +10,13 @@ path: calculators
 >
 <h1>Percentage Calculator</h1>
  
+<h2>What is X % of X?</h2>
 <!-- What is X % of X?-->
 <div class="calc-border">
-
     <!-- Defines a field for entering a number-->
-    <h2 class="text-lg font-semibold">What is<input class="calc-input" type="number" id="percent" />% of
+    <h3 class="text-lg font-semibold">What is<input class="calc-input" type="number" id="percent" />% of
         <input class="calc-input" type="number" id="num" />
-    </h2>
+    </h3>
 
     <!-- onclick event is to call the function when
         user click on the button-->
@@ -28,12 +28,13 @@ path: calculators
 </div>
 
 <!-- X is what % of X-->
+<h2>X is what % of X?</h2>
 <div class="calc-border">
     <!-- Defines a field for entering a number -->
-    <h2 class="text-lg font-semibold"><input class="calc-input" type="number" id="num1" />
+    <h3 class="text-lg font-semibold"><input class="calc-input" type="number" id="num1" />
         is what % of
         <input class="calc-input" type="number" id="num2" />
-    </h2>
+    </h3>
       
     <!-- onclick event is to call the function 
         when user click on the button -->
@@ -44,16 +45,16 @@ path: calculators
     <input class="calc-answer" type="text"  placeholder="Waiting to calculate..." id="value2" readonly />
 </div>
 
-<!-- X is what % of X-->
+<!-- percent difference -->
+<h2>Percent difference</h2>
 <div class="calc-border">
-
     <!-- Defines a field for entering a number -->
-    <h2 class="text-lg font-semibold">
-        Calculate the difference between 
-        <input class="calc-input" type="number" id="increase_1" />
-        and
-        <input class="calc-input" type="number" id="increase_2" />
-    </h2>
+    <h3 class="text-lg font-semibold">
+        Value 1
+        <input class="calc-input my-4" type="number" id="increase_1" /><br/>
+        Value 2
+        <input class="calc-input my-4" type="number" id="increase_2" />
+    </h3>
       
     <!-- onclick event is to call the function 
         when user click on the button -->

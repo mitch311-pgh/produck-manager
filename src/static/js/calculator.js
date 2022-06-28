@@ -19,10 +19,11 @@ function percentage_2() {
 
 function percentage_3() {
   // Method returns the element of num1 id
-  var num4 = document.getElementById("increase_1").value;
+  var increase_1 = document.getElementById("increase_1").value;
 
   // Method returns the elements of num2 id
-  var num5 = document.getElementById("increase_2").value;
+  var increase_2 = document.getElementById("increase_2").value;
 
-  document.getElementById("value3").value = increase_2 - increase_1;
+  document.getElementById("value3").value =
+    (increase_2 - increase_1) / increase_1 + "% increase";
 }
