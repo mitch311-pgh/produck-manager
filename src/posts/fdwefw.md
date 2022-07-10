@@ -15,10 +15,8 @@ Love it, hate it, or, *really* hate it - documentation is a critical part of sof
 
 One of the biggest benefits is that it uses standard English (or, your team's language of choice). The basic syntax requires almost no explanation:
 
-*Feature: Title of the Scenario*
-**Given** \[Preconditions]
-**When** \[Action takes place]
-**Then** \[Output]
+*`Feature: Title of the Scenario`*
+**`Given`**
 
 An actual feature might be documented like this:
 
@@ -32,7 +30,7 @@ In reality, a little more context is generally needed, but the syntax is readily
 *Feature: Blog publish button*
 **Given** User has populated rich text editor with content
 **When** User clicks 'Publish' button in content management system
-   ** And** There are no errors
+    **And** There are no errors
 **Then** Article is published
    **And** Article's URL is added to sitemap
    **And** Article appears on recently published page
