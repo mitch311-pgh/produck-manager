@@ -15,8 +15,17 @@ Love it, hate it, or, *really* hate it - documentation is a critical part of sof
 
 One of the biggest benefits is that it uses standard English (or, your team's language of choice). The basic syntax requires almost no explanation:
 
-*`Feature: Title of the Scenario`*
-**`Given`**
+<!--StartFragment-->
+
+*Feature: Title of the Scenario* 
+
+**Given** \[Preconditions]
+
+**When** \[Action takes place] 
+
+**Then** \[Output]
+
+<!--EndFragment-->
 
 An actual feature might be documented like this:
 
